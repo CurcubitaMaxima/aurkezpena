@@ -1,0 +1,46 @@
+@font-face {
+    font-family: titulo;
+    src: url(fonts/2.otf);
+}
+@font-face {
+    font-family: otro;
+    src: url(fonts/1.ttf);
+}
+
+body{
+	background: black;
+}
+section{
+	color: greenyellow !important;
+}
+
+.mor{
+	color: DarkMagenta;
+	text-transform: lowercase;
+	font-family: 'otro';
+}
+.ver{
+	color: greenyellow !important;
+	font-family: 'fonts/1.ttf';
+}
+.oracle{
+	height: 300px;
+	list-style: none;
+}
+.askatasuna{
+	font-size: 30px !important;
+}
+#askatasunaImg{
+	background: white;
+	width: 900px;
+	height: 300px;
+}
+.tabla{
+	width: 50%;
+}
+.net{
+	display: flex;
+	flex-direction: row;
+	 justify-content: center;
+	 align-items:center;
+}
